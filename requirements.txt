@@ -1,2 +1,4 @@
 tox
+simple-pid
+numpy
 -e .
