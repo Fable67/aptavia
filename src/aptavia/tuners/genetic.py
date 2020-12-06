@@ -12,6 +12,9 @@ class GeneticTuner(object):
     :param mutation_probability: The probability of a gain of a PID-Controller in
         the population randomly changing, defaults to 0.2
     :type mutation_probability: float, optional
+    :param population: A list of PID_Controllers that are tuned when 
+        :meth:`aptavia.tuners.GeneticTuners.step` is called.
+    :type population: list of :class:`simple_pid.PID`
     :param fitness_function: A function that evaluates the fitness of one 
         PID-Controller, defaults to None
     :type fitness_function: function, optional

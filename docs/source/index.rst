@@ -10,6 +10,7 @@ Welcome to aptavia's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   tuners
 
 
 Indices and tables
